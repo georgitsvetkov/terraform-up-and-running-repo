@@ -1,12 +1,5 @@
-env:
-    linux
-    osx
-    
-language: 
-    python
-    
-before_script:
-    echo "1..2..3..test.."
+travis lint example.yml
+
     
 #script:
 #- bash test_hello.sh
