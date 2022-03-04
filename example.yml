@@ -1,5 +1,0 @@
-language: 
-     python
-
-scripts:
-- >>> print(“Hello World”)
