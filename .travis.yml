@@ -1,4 +1,13 @@
-language: generic
-script:
-- bash test_hello.sh
-- bash test_bye.sh
+env:
+    linux
+    osx
+    
+language: 
+    python
+    
+before_script:
+    echo "1..2..3..test.."
+    
+#script:
+#- bash test_hello.sh
+#- bash test_bye.sh
